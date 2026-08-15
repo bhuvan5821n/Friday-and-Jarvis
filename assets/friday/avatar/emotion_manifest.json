@@ -1,0 +1,52 @@
+{
+  "_comment": "FRIDAY avatar emotion clips. All sources are 720x720, 30fps, ~5.03s, H.264. Each file carries a silent AAC track that the player must never route to an audio output.",
+  "version": 1,
+  "fallback": "neutral",
+  "emotions": {
+    "neutral": {
+      "file": "neutral.mp4",
+      "loop": true,
+      "label": "Neutral"
+    },
+    "listening": {
+      "file": "listening.mp4",
+      "loop": true,
+      "label": "Listening"
+    },
+    "thinking": {
+      "file": "thinking.mp4",
+      "loop": true,
+      "label": "Thinking"
+    },
+    "thinking_alt": {
+      "file": "thinking_alt.mp4",
+      "loop": true,
+      "label": "Thinking (alt)"
+    },
+    "happy": {
+      "file": "happy.mp4",
+      "loop": true,
+      "label": "Happy"
+    },
+    "curious": {
+      "file": "curious.mp4",
+      "loop": true,
+      "label": "Curious"
+    },
+    "surprised": {
+      "file": "surprised.mp4",
+      "loop": false,
+      "label": "Surprised"
+    },
+    "speaking": {
+      "file": "speaking.mp4",
+      "loop": true,
+      "label": "Speaking"
+    },
+    "speaking_emphasis": {
+      "file": "speaking_emphasis.mp4",
+      "loop": true,
+      "label": "Speaking (emphasis)"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "authorized_whatsapp_numbers": [],
+  "_comment": "Add your WhatsApp number (country code + number, no + or spaces) to enable remote control. An empty list denies everyone."
+}

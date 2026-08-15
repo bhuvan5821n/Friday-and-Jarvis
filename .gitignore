@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.env
+.env.local
+.env.production
+!.env.example
+.venv/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# API Keys and Secrets - NEVER COMMIT THESE
+config/api_keys.json
+config/ai_prefs.json
+config/events.json
+
+# Logs
+Logs/
+*.log
+
+# Memory files (user data)
+memory/long_term.json
+ruvector.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node modules (if using any JS tools)
+node_modules/
+.npm-cache/
+
+# Agent scratch state
+.claude-flow/
+.swarm/
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Playwright
+.playwright/
+
+# ONNX models (downloaded at runtime)
+*.onnx
+runtime/
+dist/launcher/
+build/launcher/
+
+# Web Intelligence runtime data (caches, preferences)
+data/web_intelligence/
+
+# AOCA (ASTRAEUS OMEGA) runtime state
+aoca/*.db
+aoca/*.db-wal
+aoca/*.db-shm
+
+# Databases (contain user data)
+*.db
+*.db-shm
+*.db-wal
+
+# Conversation history
+Studios/Chat/conversations.json

@@ -1,0 +1,15 @@
+{
+  "default_assistant": "friday",
+  "remember_last_assistant": true,
+  "show_console": false,
+  "startup_timeout_seconds": 20,
+  "shutdown_timeout_seconds": 8,
+  "mic_overlay_enabled": true,
+  "shortcut_keys": {
+    "jarvis": "Ctrl+Alt+J",
+    "friday": "Ctrl+Alt+F",
+    "mic_open": "Ctrl+Alt+M",
+    "mic_close": "Ctrl+Alt+Shift+M",
+    "shutdown_all": "Ctrl+Alt+Shift+X"
+  }
+}
